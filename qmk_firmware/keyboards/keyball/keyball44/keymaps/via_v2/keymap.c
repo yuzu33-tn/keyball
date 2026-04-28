@@ -73,8 +73,8 @@ void oledkit_render_info_user(void) {
 
 #ifdef COMBO_ENABLE
 enum combos{
-JK_MOUSE1
-KL_MOUSE2
+JK_MOUSE1,
+KL_MOUSE2,
 };
 
 const uint16_t PROGMEM my_jk[] = {KC_J, KC_K, COMBO_END};
