@@ -81,7 +81,7 @@ const uint16_t PROGMEM my_jk[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM my_kl[] = {KC_K, KC_L, COMBO_END};
 
 combo_t key_combos[] = {
-[JK_MOUSE1]COMBO(my_jk, QK_MOUSE_BUTTON_1),
-[KL_MOUSE2]COMBO(my_kl, QK_MOUSE_BUTTON_2),
+[JK_MOUSE1]COMBO(my_jk, MS_BTN1),
+[KL_MOUSE2]COMBO(my_kl, MS_BTN2),
 };
 #endif
