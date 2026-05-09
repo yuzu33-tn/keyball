@@ -77,17 +77,20 @@ JK_MOUSE1,
 KL_MOUSE2,
 JL_MOUSE3,
 JKL_MOUSESC,
+FD_LAYER4,
 };
 
 const uint16_t PROGMEM my_jk[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM my_kl[] = {KC_K, KC_L, COMBO_END};
 const uint16_t PROGMEM my_jl[] = {KC_J, KC_L, COMBO_END};
 const uint16_t PROGMEM my_jkl[] = {KC_J, KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM my_fd[] = {KC_F, KC_D, COMBO_END};
 
 combo_t key_combos[] = {
 [JK_MOUSE1]COMBO(my_jk, KC_BTN1),
 [KL_MOUSE2]COMBO(my_kl, KC_BTN2),
 [JL_MOUSE3]COMBO(my_jl, KC_BTN3),
 [JKL_MOUSESC]COMBO(my_jkl, SCRL_MO),
+[FD_LAYER4]COMBO(my_fd, MO(4)),
 };
 #endif
